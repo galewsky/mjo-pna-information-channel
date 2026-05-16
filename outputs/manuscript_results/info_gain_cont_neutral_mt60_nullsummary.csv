@@ -1,0 +1,9 @@
+phase,max_stat_obs,best_lag_obs,p_phase,q_phase,n_lags_used,min_n,median_n,n_null,block_len,null_mode,window_mode,underpowered_policy,two_sided,condition_file,condition_var,condition_values,p_global
+1,0.1800534998769714,6,0.12787212787212787,0.396936396936397,31,202.0,202.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495
+2,0.14699457676138827,26,0.6893106893106893,0.6893106893106893,31,157.0,157.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495
+3,0.1471737819597445,27,0.2977022977022977,0.396936396936397,31,194.0,194.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495
+4,0.21033824638169696,18,0.15684315684315683,0.396936396936397,31,205.0,205.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495
+5,0.19936711485550962,25,0.24975024975024976,0.396936396936397,31,210.0,210.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495
+6,0.25927727881171814,19,0.5294705294705294,0.6051091765377479,31,119.0,119.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495
+7,0.1633582766577617,6,0.17582417582417584,0.396936396936397,31,156.0,156.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495
+8,0.13852572708556998,25,0.24275724275724275,0.396936396936397,31,234.0,234.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,0,0.5494505494505495

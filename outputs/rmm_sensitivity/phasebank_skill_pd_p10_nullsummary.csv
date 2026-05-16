@@ -1,0 +1,9 @@
+phase,maxstat_obs,best_lag_obs,p_phase,q_phase,n_null,null_mode,block_len,stat,two_sided,amp_var,gate_var,phase_var
+1,0.2549019607843137,24,0.582089552238806,0.6652452025586354,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index
+2,0.3,19,0.4427860696517413,0.5903814262023217,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index
+3,0.1111111111111111,0,0.9800995024875622,0.9800995024875622,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index
+4,0.2631578947368421,0,0.36318407960199006,0.5810945273631841,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index
+5,0.26153846153846155,0,0.2885572139303483,0.5810945273631841,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index
+6,0.34375,1,0.06467661691542288,0.5174129353233831,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index
+7,0.2916666666666667,3,0.16417910447761194,0.5810945273631841,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index
+8,0.28125,8,0.3383084577114428,0.5810945273631841,200,blockperm,60,pd_at_pfa,0,z500_amp_gated,burst_gate,driver_phase_index

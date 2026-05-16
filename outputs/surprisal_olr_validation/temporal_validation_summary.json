@@ -1,0 +1,137 @@
+{
+  "surprisal": {
+    "source_file": "mjo_index_from_surprisal_timeseries.nc",
+    "gate_train_start": "1991-01-01",
+    "gate_train_end": "2010-12-31",
+    "gate_percentile": 90.0,
+    "gate_smooth_days": 10,
+    "gate_threshold": 14.6811,
+    "eval_start": "1991-01-01",
+    "eval_end": "2020-12-31",
+    "gate_burst_overlap": {
+      "period_start": "1991-01-01",
+      "period_end": "2020-12-31",
+      "gate_on_days": 898,
+      "burst_days": 1667,
+      "overlap_days": 898,
+      "fraction_burst_days_also_gate_on": 0.5387,
+      "fraction_gate_days_also_in_burst": 1.0,
+      "burst_event_count": 67,
+      "mean_burst_duration_days": 24.8806,
+      "median_burst_duration_days": 14.0
+    }
+  },
+  "references": {
+    "ROMI": {
+      "day_level": {
+        "burst": {
+          "valid_days": 10950,
+          "reference_active_days": 5594,
+          "pred_active_days": 1667,
+          "hit_days": 1122,
+          "false_alarm_days": 545,
+          "miss_days": 4472,
+          "correct_null_days": 4811,
+          "pod": 0.2006,
+          "far": 0.3269,
+          "frequency_bias": 0.298,
+          "hss": 0.0973,
+          "csi": 0.1828
+        },
+        "gate": {
+          "valid_days": 10950,
+          "reference_active_days": 5594,
+          "pred_active_days": 898,
+          "hit_days": 628,
+          "false_alarm_days": 270,
+          "miss_days": 4966,
+          "correct_null_days": 5086,
+          "pod": 0.1123,
+          "far": 0.3007,
+          "frequency_bias": 0.1605,
+          "hss": 0.0607,
+          "csi": 0.1071
+        }
+      },
+      "amplitude_correlation": {
+        "pearson_r_all_days": 0.2459,
+        "pearson_r_active_any": -0.0239,
+        "peak_lag_all_days": -2,
+        "peak_r_all_days": 0.2476,
+        "peak_lag_active_any": -2,
+        "peak_r_active_any": -0.0217
+      },
+      "event_level": {
+        "reference_events": 216,
+        "burst_events": 67,
+        "hits": 57,
+        "misses": 159,
+        "false_alarms": 12,
+        "hit_rate": 0.2639,
+        "false_alarm_rate": 0.1791,
+        "mean_onset_offset_days": 11.2281,
+        "median_onset_offset_days": 5.0
+      },
+      "meta": {
+        "source_file": "romi.cpcolr.1x.txt"
+      }
+    },
+    "RMM": {
+      "day_level": {
+        "burst": {
+          "valid_days": 10950,
+          "reference_active_days": 6751,
+          "pred_active_days": 1667,
+          "hit_days": 1126,
+          "false_alarm_days": 541,
+          "miss_days": 5625,
+          "correct_null_days": 3658,
+          "pod": 0.1668,
+          "far": 0.3245,
+          "frequency_bias": 0.2469,
+          "hss": 0.0309,
+          "csi": 0.1544
+        },
+        "gate": {
+          "valid_days": 10950,
+          "reference_active_days": 6751,
+          "pred_active_days": 898,
+          "hit_days": 613,
+          "false_alarm_days": 285,
+          "miss_days": 6138,
+          "correct_null_days": 3914,
+          "pod": 0.0908,
+          "far": 0.3174,
+          "frequency_bias": 0.133,
+          "hss": 0.0181,
+          "csi": 0.0871
+        }
+      },
+      "amplitude_correlation": {
+        "pearson_r_all_days": 0.1356,
+        "pearson_r_active_any": -0.0686,
+        "peak_lag_all_days": -1,
+        "peak_r_all_days": 0.136,
+        "peak_lag_active_any": 2,
+        "peak_r_active_any": -0.0681
+      },
+      "event_level": {
+        "reference_events": 283,
+        "burst_events": 67,
+        "hits": 73,
+        "misses": 210,
+        "false_alarms": 9,
+        "hit_rate": 0.258,
+        "false_alarm_rate": 0.1343,
+        "mean_onset_offset_days": 0.9726,
+        "median_onset_offset_days": 3.0
+      },
+      "meta": {
+        "source_file": "rmm.74toRealtime.txt",
+        "invalid_days": 0
+      }
+    }
+  },
+  "active_any_definition": "Days when either the surprisal burst mask or the reference active mask is true.",
+  "lag_sign_convention": "Correlation is computed between surprisal A(t) and reference amplitude at t+lag; positive lag means the reference lags surprisal."
+}

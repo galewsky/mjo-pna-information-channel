@@ -1,0 +1,5 @@
+reference,state,valid_days,reference_active_days,pred_active_days,hit_days,false_alarm_days,miss_days,correct_null_days,pod,far,frequency_bias,hss,csi
+ROMI,burst,10950,5594,1667,1122,545,4472,4811,0.2006,0.3269,0.2980,0.0973,0.1828
+ROMI,gate,10950,5594,898,628,270,4966,5086,0.1123,0.3007,0.1605,0.0607,0.1071
+RMM,burst,10950,6751,1667,1126,541,5625,3658,0.1668,0.3245,0.2469,0.0309,0.1544
+RMM,gate,10950,6751,898,613,285,6138,3914,0.0908,0.3174,0.1330,0.0181,0.0871

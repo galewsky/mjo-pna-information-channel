@@ -1,0 +1,43 @@
+{
+  "phase_correlations": {
+    "1": 0.8375871594472228,
+    "2": 0.7238866964964915,
+    "3": 0.7746499569603976,
+    "4": 0.8281136300420779,
+    "5": 0.70530490976345,
+    "6": 0.7022088221449746,
+    "7": 0.5914670685730327,
+    "8": 0.7949478449622088
+  },
+  "raw_phase_correlations": {
+    "1": -0.8375871594472228,
+    "2": -0.7238866964964915,
+    "3": -0.7746499569603976,
+    "4": -0.8281136300420779,
+    "5": -0.70530490976345,
+    "6": -0.7022088221449746,
+    "7": -0.5914670685730327,
+    "8": -0.7949478449622088
+  },
+  "n_days_by_phase": {
+    "1": 759,
+    "2": 617,
+    "3": 579,
+    "4": 819,
+    "5": 780,
+    "6": 616,
+    "7": 580,
+    "8": 844
+  },
+  "aligned_min": 0.5914670685730327,
+  "aligned_max": 0.8375871594472228,
+  "aligned_mean": 0.744770761048732,
+  "weak_phases": [],
+  "unexpected_sign_phases": [],
+  "common_days": 10950,
+  "active_days": 5594,
+  "surprisal_source": "mjo_index_from_surprisal.nc",
+  "olr_source": "https://psl.noaa.gov/thredds/dodsC/Datasets/interp_OLR/olr.day.mean.nc",
+  "romi_source": "romi.cpcolr.1x.txt",
+  "note": "The local olr_tropics_anomalies.zarr store was unavailable and no cloud credentials were configured for the private s3://galewsky/olr/olr_tropics_anomalies.zarr path. NOAA daily interpolated OLR was used instead, with the same detrend + seasonal-cycle removal."
+}

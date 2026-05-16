@@ -1,0 +1,2 @@
+period_start,period_end,gate_on_days,burst_days,overlap_days,fraction_burst_days_also_gate_on,fraction_gate_days_also_in_burst,burst_event_count,mean_burst_duration_days,median_burst_duration_days
+1991-01-01,2020-12-31,898,1667,898,0.5387,1.0000,67,24.8806,14.0000

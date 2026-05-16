@@ -1,0 +1,4 @@
+entry,phase,lag_days,test_start,test_end,n_samples,n_y_bins,h_uncond_bits,h_cond_bits,mi_bits,source_date,receiver_date,source_intensity,receiver_amplitude,projection_numerator,projection_denominator,projection_a_hat
+global_phase5_lag25_cont,5,25,2011-01-01,2020-12-31,426.0,15.0,3.5449535767215434,3.406778762541385,0.13817481418015864,,,,,,,
+strong_fit_event,5,25,,,,,,,,2020-10-18,2020-11-12,5.316995906829834,-44.53579330444336,-11783188.834424946,264577.9379580318,-44.535795105841494
+weak_fit_event,5,25,,,,,,,,2014-07-25,2014-08-19,4.652136588096619,0.11904657632112503,31497.097636554332,264577.9379580318,0.11904657614177379

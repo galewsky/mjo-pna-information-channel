@@ -1,0 +1,21 @@
+name: mjo-pna-information-channel
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - dask
+  - netcdf4
+  - h5netcdf
+  - zarr
+  - numba
+  - scikit-learn
+  - matplotlib
+  - cartopy
+  - pillow
+  - statsmodels
+  - pyyaml
+

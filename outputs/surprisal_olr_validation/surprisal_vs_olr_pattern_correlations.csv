@@ -1,0 +1,9 @@
+phase,n_days,r_aligned,r_raw,flag_r_lt_0p5,flag_unexpected_sign
+1,759,0.837587,-0.837587,False,False
+2,617,0.723887,-0.723887,False,False
+3,579,0.774650,-0.774650,False,False
+4,819,0.828114,-0.828114,False,False
+5,780,0.705305,-0.705305,False,False
+6,616,0.702209,-0.702209,False,False
+7,580,0.591467,-0.591467,False,False
+8,844,0.794948,-0.794948,False,False

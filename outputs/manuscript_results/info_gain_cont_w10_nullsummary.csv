@@ -1,0 +1,2 @@
+phase,max_stat_obs,best_lag_obs,p_phase,q_phase,n_lags_used,min_n,median_n,n_null,block_len,null_mode,window_mode,underpowered_policy,two_sided,condition_file,condition_var,condition_values
+6,0.14379689936558604,8,1.0,1.0,31,409.0,409.0,0,60,blockperm,continuous_intensity,flag_only,0,,,

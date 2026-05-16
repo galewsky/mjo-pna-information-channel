@@ -1,0 +1,23 @@
+% Auto-generated duty cycle table
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{r r r r r r}
+\hline
+Phase & $P(\text{phase}=k)$ & $P(G=1,\,\text{phase}=k)$ & $P(G=1\mid\text{phase}=k)$ & $H_{\rm eval}(G\mid k)$ (bits) & $N_k$\\
+\hline
+1 & 0.133 & 0.013 & 0.099 & 0.466 & 485\\
+2 & 0.118 & 0.010 & 0.089 & 0.432 & 429\\
+3 & 0.132 & 0.018 & 0.133 & 0.565 & 482\\
+4 & 0.142 & 0.023 & 0.162 & 0.638 & 520\\
+5 & 0.117 & 0.015 & 0.126 & 0.548 & 427\\
+6 & 0.113 & 0.010 & 0.087 & 0.427 & 413\\
+7 & 0.108 & 0.009 & 0.081 & 0.406 & 395\\
+8 & 0.137 & 0.010 & 0.076 & 0.388 & 499\\
+\hline
+\multicolumn{6}{l}{p85 gate: $q_{85}^{\rm train}=12.232$, global $P(G=1)=0.108$, $H(G)=0.494$ bits}\\
+\hline
+\end{tabular}
+\caption{Duty cycle and binary-entropy bounds for the p85 gate over all 2011--2020 evaluation-window source days. $P(\text{phase}=k)$ is phase occupancy; $P(G=1,\,\text{phase}=k)$ is the joint phase--gate frequency; $P(G=1\mid\text{phase}=k)$ is the on-fraction within phase $k$. $H_{\rm eval}(G\mid k)=h_2[P(G=1\mid\text{phase}=k)]$ is the all-window conditional binary entropy. The telecom scorecard uses the corresponding lag-paired entropy at each IG-optimal lag, so small differences from this duty-cycle table arise from lag-edge sample exclusion.}
+\label{tab:duty_cycle}
+\end{table}

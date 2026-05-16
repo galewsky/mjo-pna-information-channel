@@ -1,0 +1,9 @@
+phase,max_stat_obs,best_lag_obs,p_phase,q_phase,n_lags_used,min_n,median_n,n_null,block_len,null_mode,window_mode,underpowered_policy,two_sided,condition_file,condition_var,condition_values,p_global
+1,,-1,,,0,77.0,77.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
+2,,-1,,,0,82.0,85.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
+3,0.2656749850289919,4,1.0,1.0,31,101.0,111.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
+4,,-1,,,0,92.0,94.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
+5,,-1,,,0,92.0,92.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
+6,0.36661146935145217,8,0.5294705294705294,1.0,31,106.0,106.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
+7,,-1,,,0,59.0,59.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
+8,,-1,,,0,64.0,64.0,1000,60,blockperm,continuous_intensity,flag_only,0,manuscript_results/enso_state_daily.nc,enso_state,-1,0.5294705294705294
